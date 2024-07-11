@@ -57,7 +57,7 @@ where
     leaves
 }
 fn main() {
-    let tuples = vec![('a', 'b'), ('b', 'c'), ('b','h'),('c', 'd'), ('c', 'e'), ('f', 'g')];
+    let tuples = vec![('a', 'b'), ('b', 'c'), ('b','h'),('c', 'd'), ('c', 'e'), ('e','m'),('m','t'),('f', 'g')];
     let trees = build_tree(tuples);
 
     for tree in &trees {
